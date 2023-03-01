@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <img id="poke">
+    <button id="changePoke">Start The Game</button>
+    <input type="text" id="guess">
+    <button id="test">Répondre</button>
+    <p id="reponse"></p>
+    <p id="score"></p> -->
+    <!-- ################################################################################# -->
+    <div id="buttonpanel">
+        <button id="team1" class="panel">Equipe joueur 1</button>
+        <button id="team2" class="panel">Equipe joueur 2</button>
+        <button id="raccourci" class="panel">Voir les raccourcis</button>
+        <button id="start" class="panel">Lancer le tour</button>
+    </div>    
+    <div class="hidden absolue" id="ekip">
+        <p id="clos">❌</p>
+    </div>
+    <div class="hidden absolue" id="ekip2">
+        <p id="clos2">❌</p>
+    </div>
+    <div class="hidden absolue" id="racc">
+        <p id="close">❌</p>
+        <p>r : Changer de pokémon</p>
+        <p>e : Ajouter le pokémon à l'équipe</p>
+        <p>1 : Voir l'équipe 1</p>
+        <p>2 : Voir l'équipe 2</p>
+        <p>p : Lancer le tour</p>
+    </div>
+    <p id="compteur" data-label="10">30s</p>
+    <div class="container">
+        <img src="Images/International_Pokémon_logo.svg.png" alt="logo pokemon" id="pokelogo">
+    </div>
+    <img alt="pokeon" id="imgPoke" class="absolue">
+    <div class="container">
+        <div id="infos">
+            <p id="pokeName"></p>
+            <p id="pokedex"></p>
+        </div>
+    </div>
+    <div class="container">
+        <button id="add">Ajouter le pokémon à l'équipe</button>
+        <div class="container-in-columns">
+            <span class="type"></span>
+            <span class="type"></span>
+        </div>
+        <div id="stats">
+            <p class="stat"></p>
+            <p class="stat"></p>
+            <p class="stat"></p>
+            <p class="stat"></p>
+            <p class="stat"></p>
+            <p class="stat"></p>
+        </div>
+    </div>
+    <button id="randomPoke">Changer de Pokemon</button>
+    <script src="pokemon.js"></script>
+    <script src="main.js"></script>
+    <script src="fight.js"></script>
+</body>
+</html>

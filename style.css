@@ -1,0 +1,104 @@
+body{
+    background-image: url(Images/Pokemon_go_2016-Classic_High_Quality_Wallpaper_1366x768.jpg);
+    color: white;
+}
+
+#pokelogo{
+    width: 30em;
+    margin-right: -8em;
+    margin-top: -4em;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2em 13em 0 0;
+}
+
+/* #infos{
+    margin: 2em 15em 0em 0;
+} */
+
+#pokeName{
+    font-size: 32px;
+    font-family:fantasy;
+    margin: 0 1.5em 0 0;
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 6em;
+    background-color: gray;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin: 2em 2em 2em 2em;
+}
+
+.imgType{
+    width: 2em;
+}
+
+.container-in-columns{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#imgPoke{
+    margin-left: 7em;
+    height: 32em;
+}
+
+.absolue{
+    position: absolute;
+}
+
+.panel{
+    width: 10em;
+    height: 3em;
+}
+
+#add{
+    width: 5em;
+    margin-right: 1em;
+}
+
+.hidden{
+    visibility: hidden;
+    background-color: gray;
+    color: black;
+    margin: -1em 0 0 8.3em;
+}
+
+#buttonpanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#ekip, #ekip2{
+    display: flex;
+    flex-direction: row;
+}
+
+.miniPoke{
+    width: 5em;
+    margin: 1em 1em 0 1em
+}
+
+#miniPokeName{
+    margin : 0 0 0 1em
+}
+
+.unPoke{
+    border: 1px solid black;
+}
+
+#stats{
+    margin-right: -5em
+}
